@@ -1,0 +1,30 @@
+p {
+	font-size: 1.5rem;
+}
+
+.edit_btn {
+	cursor: pointer;
+	color: rgba(0, 50, 255, 1);
+}
+
+.edit_btn:hover {
+	color: rgba(0, 123, 255, 1);
+}
+
+.save_btn {
+	cursor: pointer;
+	color: #00cc00;
+}
+
+.save_btn:hover {
+	color: #008500;
+}
+
+.cancel_btn {
+	cursor: pointer;
+	color: #bf3030;
+}
+
+.cancel_btn:hover {
+	color: #a60000;
+}

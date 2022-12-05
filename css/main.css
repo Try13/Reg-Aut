@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(circle, rgba(74, 155, 197, 1) 0%, #4a8dc5 100%);
+	display: flex;
+	justify-content: center;
+	font-family: "Lato", sans-serif;
+}
+form {
+	transform: translateY(0px);
+	filter: drop-shadow(1px 2px 4px hsl(0deg, 0%, 0%, 0.2));
+}
+form {
+	transform: translateY(0px);
+	filter: drop-shadow(1px 2px 4px hsl(0deg, 0%, 0%, 0.2));
+}
+form:focus-within {
+	transform: translateY(-2px);
+	filter: drop-shadow(1px 2px 4px rgba(0, 123, 255, 1));
+}
+h1 {
+	text-shadow: 1px 1px 4px rgba(0, 123, 255, 1);
+	color: white;
+}
+.material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+	cursor: pointer;
+	color: white;
+}
+.regtitle {
+	font-size: 2.5rem;
+	margin-right: 1rem;
+}
+.input-group-text {
+	background: linear-gradient(
+		100deg,
+		rgba(0, 123, 255, 0.6057773451177346) 50%,
+		rgba(255, 255, 255, 1) 100%
+	);
+	border-color: rgba(0, 123, 255, 1);
+}
+.form-control {
+	border-left-color: rgba(0, 123, 255, 1);
+}
+input[type="submit"] {
+	background: linear-gradient(
+		100deg,
+		rgba(0, 123, 255, 0.6057773451177346) 50%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
